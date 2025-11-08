@@ -1,201 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activity Tracker - Support</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #007AFF;
-            margin-bottom: 10px;
-            font-size: 2.5em;
-        }
-
-        .tagline {
-            color: #666;
-            font-size: 1.2em;
-            margin-bottom: 30px;
-            font-style: italic;
-        }
-
-        h2 {
-            color: #333;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-size: 1.5em;
-            border-bottom: 2px solid #007AFF;
-            padding-bottom: 10px;
-        }
-
-        p {
-            margin-bottom: 15px;
-            color: #555;
-        }
-
-        .contact {
-            background: #f5f5f5;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 30px;
-        }
-
-        .contact a {
-            color: #007AFF;
-            text-decoration: none;
-            font-weight: 600;
-        }
-
-        .contact a:hover {
-            text-decoration: underline;
-        }
-
-        .faq {
-            margin-top: 20px;
-        }
-
-        .faq-item {
-            margin-bottom: 20px;
-            padding: 15px;
-            background: #f9f9f9;
-            border-left: 4px solid #007AFF;
-            border-radius: 4px;
-        }
-
-        .faq-question {
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 8px;
-        }
-
-        .faq-answer {
-            color: #666;
-        }
-
-        .links {
-            margin-top: 30px;
-            padding: 20px;
-            background: #e8f4fd;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        .links a {
-            display: inline-block;
-            margin: 0 10px;
-            padding: 10px 20px;
-            background: #007AFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: 600;
-            transition: background 0.3s;
-        }
-
-        .links a:hover {
-            background: #0051D5;
-        }
-
-        footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            text-align: center;
-            color: #999;
-            font-size: 0.9em;
-        }
-    </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p2 {margin: 0.0px 0.0px 30.0px 0.0px; font: 14.4px 'Helvetica Neue'; color: #535353; -webkit-text-stroke: #535353}
+    p.p4 {margin: 0.0px 0.0px 15.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px '.SF NS'; color: #262626; -webkit-text-stroke: #262626}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #535353; -webkit-text-stroke: #535353}
+    p.p7 {margin: 0.0px 0.0px 15.0px 0.0px; font: 12.0px '.SF NS'; color: #0a60ff; -webkit-text-stroke: #0a60ff}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12.0px '.SF NS'; color: #ffffff; -webkit-text-stroke: #ffffff; background-color: #0a60ff}
+    p.p9 {margin: 0.0px 0.0px 15.0px 0.0px; text-align: center; font: 10.8px 'Helvetica Neue'; color: #434343; -webkit-text-stroke: #434343}
+    span.s1 {font-kerning: none; background-color: #ffffff}
+    span.s2 {font-kerning: none}
+    span.s3 {font-kerning: none; background-color: #f7f7f7}
+    span.s4 {font-kerning: none; background-color: #f2f2f2}
+    span.s5 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #434343; background-color: #f2f2f2; -webkit-text-stroke: 0px #434343}
+    span.s6 {font: 12.0px '.SF NS'; font-kerning: none; color: #0a60ff; -webkit-text-stroke: 0px #0a60ff}
+    span.s7 {font: 12.0px 'Helvetica Neue'; font-kerning: none; color: #262626; background-color: #e3f1fc; -webkit-text-stroke: 0px #262626}
+    span.s8 {font: 12.0px '.SF NS'; font-kerning: none; color: #ffffff; background-color: #0a60ff; -webkit-text-stroke: 0px #ffffff}
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Activity Tracker</h1>
-        <p class="tagline">Build positive habits. Break negative ones.</p>
-
-        <h2>Welcome!</h2>
-        <p>
-            Activity Tracker helps you build the habits you want and quit the ones you don't.
-            Track your daily activities with a clean, intuitive calendar view and visualize your progress over time.
-        </p>
-
-        <h2>How to Use</h2>
-        <p><strong>1. Add Your Activities</strong><br>
-        Go to the "My Activities" tab and tap the blue + button. Choose whether you want to Build this habit (positive activities like exercise, reading) or Quit this habit (negative activities like smoking, junk food).</p>
-
-        <p><strong>2. Track on Calendar</strong><br>
-        Switch to the "Calendar" tab and tap any date to log your activities. You can track multiple activities per day.</p>
-
-        <p><strong>3. Understand Day Colors</strong><br>
-        • <strong>Green days:</strong> Only positive habits (build)<br>
-        • <strong>Red days:</strong> Only negative habits (quit)<br>
-        • <strong>Amber days:</strong> Mix of both positive and negative</p>
-
-        <h2>Frequently Asked Questions</h2>
-        <div class="faq">
-            <div class="faq-item">
-                <div class="faq-question">Q: Is my data safe?</div>
-                <div class="faq-answer">A: Yes! Your data is encrypted and stored securely using Supabase. We use Google Sign-In for authentication and never share your data with third parties.</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Q: Does my data sync across devices?</div>
-                <div class="faq-answer">A: Yes! Sign in with the same Google account on multiple devices and your data will sync automatically.</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Q: Can I export my data?</div>
-                <div class="faq-answer">A: Data export feature is coming soon! We're working on allowing you to export your activity history in CSV format.</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Q: How do I delete my account?</div>
-                <div class="faq-answer">A: Sign out from the Settings tab. If you want to permanently delete your data, please contact us at the email below and we'll process your request within 48 hours.</div>
-            </div>
-
-            <div class="faq-item">
-                <div class="faq-question">Q: Is there a subscription fee?</div>
-                <div class="faq-answer">A: Activity Tracker is currently free to use! We may introduce premium features in the future, but the core functionality will always remain free.</div>
-            </div>
-        </div>
-
-        <div class="contact">
-            <h2>Need Help?</h2>
-            <p>If you have questions, feedback, or need support, please contact us:</p>
-            <p><strong>Email:</strong> <a href="mailto:praveen.kumar.wg15@gmail.com">praveen.kumar.wg15@gmail.com</a></p>
-            <p>We typically respond within 24-48 hours.</p>
-        </div>
-
-        <div class="links">
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="mailto:praveen.kumar.wg15@gmail.com">Contact Support</a>
-        </div>
-
-        <footer>
-            <p>&copy; 2025 Activity Tracker. All rights reserved.</p>
-            <p>Version 2.0.0</p>
-        </footer>
-    </div>
+<h1 style="margin: 0.0px 0.0px 10.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #0a60ff; -webkit-text-stroke: #0a60ff"><span class="s1"><b>Activity Tracker</b><b></b></span></h1>
+<p class="p2"><span class="s1"><i>Build positive habits. Break negative ones.</i><i></i></span></p>
+<h2 style="margin: 0.0px 0.0px 15.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1"><b>Welcome!</b><b></b></span></h2>
+<p class="p4"><span class="s1">Activity Tracker helps you build the habits you want and quit the ones you don't. Track your daily activities with a clean, intuitive calendar view and visualize your progress over time.</span></p>
+<h2 style="margin: 0.0px 0.0px 15.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1"><b>How to Use</b><b></b></span></h2>
+<p class="p4"><span class="s1"><b>1. Add Your Activities</b></span><span class="s2"><br>
+</span><span class="s1">Go to the "My Activities" tab and tap the blue + button. Choose whether you want to Build this habit (positive activities like exercise, reading) or Quit this habit (negative activities like smoking, junk food).</span></p>
+<p class="p4"><span class="s1"><b>2. Track on Calendar</b></span><span class="s2"><br>
+</span><span class="s1">Switch to the "Calendar" tab and tap any date to log your activities. You can track multiple activities per day.</span></p>
+<p class="p4"><span class="s1"><b>3. Understand Day Colors</b></span><span class="s2"><br>
+</span><span class="s1">• <b>Green days:</b> Only positive habits (build)</span><span class="s2"><br>
+</span><span class="s1">• <b>Red days:</b> Only negative habits (quit)</span><span class="s2"><br>
+</span><span class="s1">• <b>Amber days:</b> Mix of both positive and negative</span></p>
+<h2 style="margin: 0.0px 0.0px 15.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s1"><b>Frequently Asked Questions</b><b></b></span></h2>
+<p class="p5"><span class="s3"><b>Q: Is my data safe?</b><b></b></span></p>
+<p class="p6"><span class="s3">A: Yes! Your data is encrypted and stored securely using Supabase. We use Google Sign-In for authentication and never share your data with third parties.</span></p>
+<p class="p5"><span class="s3"><b>Q: Does my data sync across devices?</b><b></b></span></p>
+<p class="p6"><span class="s3">A: Yes! Sign in with the same Google account on multiple devices and your data will sync automatically.</span></p>
+<p class="p5"><span class="s3"><b>Q: Can I export my data?</b><b></b></span></p>
+<p class="p6"><span class="s3">A: Data export feature is coming soon! We're working on allowing you to export your activity history in CSV format.</span></p>
+<p class="p5"><span class="s3"><b>Q: How do I delete my account?</b><b></b></span></p>
+<p class="p6"><span class="s3">A: Sign out from the Settings tab. If you want to permanently delete your data, please contact us at the email below and we'll process your request within 48 hours.</span></p>
+<p class="p5"><span class="s3"><b>Q: Is there a subscription fee?</b><b></b></span></p>
+<p class="p6"><span class="s3">A: Activity Tracker is currently free to use! We may introduce premium features in the future, but the core functionality will always remain free.</span></p>
+<h2 style="margin: 0.0px 0.0px 15.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #262626; -webkit-text-stroke: #262626"><span class="s4"><b>Need Help?</b><b></b></span></h2>
+<p class="p4"><span class="s4">If you have questions, feedback, or need support, please contact us:</span></p>
+<p class="p7"><span class="s5"><b>Email:</b> <a href="mailto:praveen.kumar.wg15@gmail.com"><span class="s6"><b>alphabyai@gmail.com</b><b></b></span></a></span></p>
+<p class="p4"><span class="s4">We typically respond within 24-48 hours.</span></p>
+<p class="p8"><span class="s2"><a href="file:///Users/praveen/projects/activity-tracker/github-pages/privacy.html"><b>Privacy Policy</b></a></span><span class="s7"> <a href="mailto:praveen.kumar.wg15@gmail.com"><span class="s8"><b>Contact Support</b><b></b></span></a></span></p>
+<p class="p9"><span class="s1">© 2025 Activity Tracker. All rights reserved.</span></p>
+<p class="p9"><span class="s1">Version 2.0.0</span></p>
 </body>
 </html>
