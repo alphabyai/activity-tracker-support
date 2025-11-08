@@ -76,7 +76,7 @@ After deployment, your pages will be available at:
 
 You can customize these pages by editing the HTML files:
 
-- Update the email address (currently: praveen.kumar.wg15@gmail.com)
+
 - Change colors (currently using #007AFF blue)
 - Add more FAQ questions
 - Update the version number in footer
